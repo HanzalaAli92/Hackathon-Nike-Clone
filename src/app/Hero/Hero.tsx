@@ -26,7 +26,7 @@ function Hero() {
           alt="hero section image"
           width={1144}
           height={600}
-          className="w-[90%] max-w-[1144px] mx-auto h-auto"
+          className="w-[100%] max-w-[1550px] mx-auto h-auto"
         />
 
         <div className="text-center mt-6">
@@ -69,7 +69,7 @@ function Hero() {
           alt="featured section image"
           width={1144}
           height={600}
-          className="w-[90%] max-w-[1144px] mx-auto h-auto mt-4"
+          className="w-[100%] max-w-[1550px] mx-auto h-auto mt-4"
         />
         <div className="text-center mt-6">
           <h3 className="text-4xl font-bold">STEPS INTO WHAT FEELS GOOD</h3>
@@ -99,7 +99,7 @@ function Hero() {
           alt="don't miss section image"
           width={1144}
           height={600}
-          className="w-[90%] max-w-[1144px] mx-auto h-auto mt-4"
+          className="w-[100%] max-w-[1550px] mx-auto h-auto mt-4"
         />
         <div className="text-center mt-6">
           <h3 className="text-4xl font-bold">FLIGHT ESSENTIALS</h3>

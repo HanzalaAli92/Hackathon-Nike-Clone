@@ -65,6 +65,8 @@ const FindStore = () => {
           <Image
             src="/Images/map-img.png" // Replace with your map image path
             alt="Map"
+            width={500}
+            height={500}
             className="w-full h-full object-cover rounded-md"
           />
         </div>

@@ -6,7 +6,7 @@ const LoginComponent = () => {
     <div className="w-full max-w-md mx-auto mt-20">
       <div className="bg-white shadow-lg rounded-lg px-8 py-10">
         <div className="text-center mb-6">
-          <Image src="/Images/nike-logo.jpeg" alt="Nike Logo" className="w-24 mx-auto" />
+          <Image src="/Images/jordan-logo.PNG" alt="jordan Logo" width={500} height={500} className="w-24 mx-auto" />
           <h2 className="text-2xl font-bold mt-4 text-black">YOUR ACCOUNT FOR EVERYTHING NIKE</h2>
         </div>
         <form>

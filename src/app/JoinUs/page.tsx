@@ -18,6 +18,8 @@ const JoinUs = () => {
             <Image
               src="/Images/jordan-logo.PNG"
               alt="Jordan Logo"
+              width={500}
+              height={500}
               className="w-24 mx-auto"
             />
             <h2 className="text-2xl font-bold mt-4">BECOME A NIKE MEMBER</h2>

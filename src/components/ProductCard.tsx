@@ -18,6 +18,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ image, name, category, price,
         <div className="border rounded-lg shadow-sm hover:shadow-lg transition transform hover:scale-105 p-4">
           <Image
             src={image}
+            width={500}
+            height={500}
             alt={name}
             className="w-full h-48 object-cover rounded-md mb-4"
             style={{ objectFit: "cover" }} // Ensures image fits perfectly

@@ -5,13 +5,15 @@ import Image from "next/image";
 
 const NavSNKRS = () => {
   return (
-    <nav className="flex justify-between items-center bg-white px-4 py-3 shadow-md">
+    <nav className="flex justify-between items-center bg-white px-14 py-3 shadow-md">
       {/* Left Section */}
       <div className="flex items-center justify-center w-1/3">
         <Link href="#" className="flex items-center">
           <Image
             src="/images/snkrs-logo.PNG" // Replace with your Nike logo path
             alt="Nike Logo"
+            width={500}
+            height={500}
             className="w-8 h-8"
           />
         </Link>

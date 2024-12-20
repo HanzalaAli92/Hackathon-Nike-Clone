@@ -23,6 +23,8 @@ export function SRNKCard({
         <Image
           src={image}
           alt={title || "Product image"}
+          width={500}
+          height={500}
           className="w-full h-full object-cover transition-all duration-300 group-hover:scale-105"
         />
       </div>

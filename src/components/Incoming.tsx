@@ -22,7 +22,7 @@ const Incoming = () => {
         <Image src="/Images/pcard12.png" alt='Nike Product Card 12' width={140} height={70} />
         <Image src="/Images/pcard12.png" alt='Nike Product Card 12' width={140} height={70} />
         <Image src="/Images/pcard12.png" alt='Nike Product Card 12' width={140} height={70} />
-        <Image src="/Images/pcard1.png" alt='Nike Product Card 1' width={140} height={70} />
+        {/* <Image src="/Images/pcard1.png" alt='Nike Product Card 1' width={140} height={70} /> */}
       </div>
     </>
   )

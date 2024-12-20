@@ -47,14 +47,14 @@ function Navbar() {
   return (
     <header className="w-full text-black">
       {/* Top Bar */}
-      <div className="h-[48px] bg-[#F5F5F5] flex items-center justify-between px-6 text-xs font-light">
+      <div className="h-[48px] bg-[#F5F5F5] flex items-center justify-between px-14 text-xs font-light">
         {/* Left */}
         <div className="flex items-center gap-4">
           <Image src="/Images/nike-logo.PNG" alt="Nike logo" width={20} height={20} />
         </div>
         {/* Center */}
         
-        <button className="text-gray-600 text-xs font-bold"><Link href="/">Skip to main content</Link></button>
+        {/* <button className="text-gray-600 text-xs font-bold"><Link href="/">Skip to main content</Link></button> */}
         
         {/* Right */}
         <div className=" gap-3 text-gray-600 text-sm hidden sm:flex">
@@ -77,7 +77,7 @@ function Navbar() {
       </div>
 
       {/* Bottom Navbar */}
-      <nav className="w-full h-[55px] flex items-center justify-between px-6 border-b border-gray-300">
+      <nav className="w-full h-[55px] flex items-center justify-between px-14 border-b border-gray-300">
         {/* Left Logo */}
         <div>
           <Link href="/">
@@ -86,7 +86,7 @@ function Navbar() {
         </div>
 
         {/* Center Links */}
-        <ul className="space-x-8 text-sm font-medium hidden md:flex">
+        <ul className="space-x-8 pl-60 text-sm font-medium hidden md:flex">
           <li>
             <Link href="/Products" className="hover:underline">
               New & Featured

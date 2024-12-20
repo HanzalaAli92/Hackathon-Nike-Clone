@@ -1,5 +1,5 @@
 import { Twitter, Facebook, Youtube, Instagram } from "lucide-react";
-
+import { IoLocationOutline } from "react-icons/io5"
 export default function Footer() {
   return (
     <footer className="bg-black text-white text-sm">
@@ -78,7 +78,7 @@ export default function Footer() {
         <div className="mt-8 border-t border-gray-700 pt-6 flex flex-col md:flex-row items-center justify-between">
           {/* Left Section */}
           <div className="flex items-center space-x-2 text-center md:text-left">
-            <span>📍</span>
+            <span><IoLocationOutline /></span>
             <span>India</span>
             <span>&copy; 2023 Nike, Inc. All Rights Reserved</span>
           </div>

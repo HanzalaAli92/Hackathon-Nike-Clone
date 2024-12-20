@@ -66,7 +66,7 @@ const GearUp = () => {
           {menItems.map((item, index) => (
             <SwiperSlide key={index}>
               <div className="card">
-                <Image src={item.image} alt={item.title} />
+                <Image src={item.image} alt={item.title} width={100} height={100}/>
                 <h3>{item.title}</h3>
                 <p>{item.category}</p>
                 <p className="price">{item.price}</p>
@@ -100,8 +100,8 @@ const GearUp = () => {
         >
           {womenItems.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="card">
-                <Image src={item.image} alt={item.title} />
+              <div className="">
+                <Image src={item.image} alt={item.title} width={500} height={500}/>
                 <h3>{item.title}</h3>
                 <p>{item.category}</p>
                 <p className="price">{item.price}</p>
